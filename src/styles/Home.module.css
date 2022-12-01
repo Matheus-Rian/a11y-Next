@@ -15,7 +15,6 @@
 }
 
 .content {
-  color: #555;
   max-width: 776px;
   width: 100%;
   margin: 0 auto;
@@ -23,10 +22,36 @@
   padding: 20px 24px;
 }
 
+.content h1 {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
 .content h2 {
+  font-size: 18px;
   margin-bottom: 20px;
 }
 
 .content p {
   margin: 20px 0;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  max-width: 1064px;
+  width: 100%;
+  margin: 0 auto;
+  
+  padding: 20px 24px;
+}
+
+.footer a {
+  padding: 1rem 2rem;
+  background: #202024;
+  border-radius: 4px;
+
+  color: #996dff;
 }
